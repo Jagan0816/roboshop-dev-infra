@@ -13,3 +13,7 @@ variable "zone_id" {
 variable "domain_name" {
     default = "jagandevops.online"
 }
+
+variable "mysql_root_password" {
+    type = string
+}
